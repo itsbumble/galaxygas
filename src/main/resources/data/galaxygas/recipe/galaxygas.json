@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#D#",
+        "HBH"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:sugar"
+        },
+        "D": {
+            "item": "minecraft:dragon_breath"
+        },
+        "H": {
+            "item": "minecraft:honey_bottle"
+        },
+        "B": {
+            "item": "minecraft:bucket"
+        }
+    },
+    "result": {
+    "id": "galaxygas:galaxygas",
+    "count": 4
+	}
+}

@@ -1,0 +1,9 @@
+{
+  "galaxy_gas_sound": {
+    "subtitle": "subtitles.galaxygas.galaxy_gas_sound",
+    "sounds": [
+      "galaxygas:galaxy_gas_sound"
+    ]
+  }
+}
+

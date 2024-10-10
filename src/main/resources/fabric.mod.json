@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "galaxygas",
+	"version": "${version}",
+	"name": "GalaxyGas",
+	"description": "Can I have the Nitrus today? Adds Galaxy Gas.",
+	"authors": [
+		"itsbumble"
+	],
+	"contact": {
+		"homepage": "https://bumble.pink",
+		"sources": "https://github.com/itsbumble/galaxygas"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/galaxygas/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"itsbumble.galaxygas.GalaxyGas"
+		],
+		"client": [
+			"itsbumble.galaxygas.GalaxyGasClient"
+		]
+	},
+	"mixins": [
+		"galaxygas.mixins.json",
+		{
+			"config": "galaxygas.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
